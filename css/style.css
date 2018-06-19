@@ -1,0 +1,45 @@
+.profile-picture {
+	max-width: 30%;
+}
+
+h4 {
+	font-family: font-family: 'Nunito', sans-serif;
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.margin-card {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.padding-card {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.margin-progress {
+	margin-left: 1%;
+	margin-right: 20%;
+}
+
+.header-color {
+	background-color: #002855;
+	color: white;
+}
+
+.body-bg {
+	background-color: #a4dbe8;/*#8db9ca;*/
+}
