@@ -2,7 +2,17 @@
 	max-width: 30%;
 }
 
+.picture-bg {
+	background-image: url(../img/pattern.jpg);
+	background-size: 30%;
+	background-repeat: repeat-x;
+}
+
 h4 {
+	font-family: font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
 	font-family: font-family: 'Nunito', sans-serif;
 }
 
@@ -42,4 +52,18 @@ p {
 
 .body-bg {
 	background-color: #a4dbe8;/*#8db9ca;*/
+}
+
+.jumbo-bg {
+	background-image: url(../img/pattern.png);
+	height: 100vh;
+}
+
+.jumbo-font {
+	color: white;
+	text-align: center;
+}
+
+.jumbo-header-bg {
+	background-color: #1d2d6573;
 }
