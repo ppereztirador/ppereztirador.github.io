@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      http-equiv="origin-trial"
+      content="ArFPW9uhQZudZAuxvtSfQzrTlSwVVehzPqDO/m4R2w/ySC/d1cu67pfrbrI9RA9hRodB75uJMVQkTyPWDLDfjwgAAABUeyJvcmlnaW4iOiJodHRwczovL2RhbmNoaXRuaXMuZ2l0aHViLmlvOjQ0MyIsImZlYXR1cmUiOiJTZXJpYWwiLCJleHBpcnkiOjE1ODgzODQ5NDJ9"
+    />
+
+    <title>Benchtop LiDAR Demo</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./dist/slider.css" type="text/css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Benchtop LiDAR Demo</h1>
+      <button id="btConnect" class="button">Connect</button>
+      <button id="btStart" class="button">Start</button>
+      <button id="btStop" class="button">Stop</button>
+      <button id="btSim" class="button">Simulate</button>
+
+      <canvas id="plot"></canvas>
+      <div id="slider"></div>
+      <p id="scale">0</p>
+      <h3>Status:</h3>
+      <p id="pLog">Ready...</p>
+    </div>
+
+    <style>
+      .inputText {
+        width: 70%;
+        margin-right: 2%;
+      }
+    </style>
+  </body>
+
+  <script src="./dist/bundle.js"></script>
+</html>
